@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/proyects.css">
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar" id="navbar">
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a class="navbar__link activo" href="">About me</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="">Skills</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="">Portfolio</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="">Contact</a></li>
+            </ul>
+
+            <button class="navbar__button" id="toggle-menu" onclick="toggleMenu()">
+                <div></div>
+            </button>
+        </nav>
+    </header>
+
+    <section class="description">
+        <div class="description__container">
+            <h2 class="description__titulo">¡Hey! I'm Elizabeth Restrepo</h2>
+            <p class="description__p">Frontend Developer Jr, in Medellin-Colombia</p>
+        </div>
+        <div class="description__img">
+            <img class="description__img--container" src="img/images.jpg" alt="">
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/elizabeth-restrepo-256541158/" id="linkedin"><img class="icon" src="img/linkedin.png" alt=""></a>
+            <a href="https://github.com/lizz023/challenge" id="github"><img class="icon" src="img/github.png" alt=""></a>
+        </div>
+    </section>
+
+    <section class="about__me">
+        <h2 class="about__title">About Me</h2>
+        <div class="about__description">
+            
+            <p class="about__p">
+                Tecnóloga en Producción Industrial, apasionada por el mundo de la tecnología y el desarrollo web. <br><br> Me encanta aprender a resolver problemas técnicos de manera eficiente, encontrar soluciones innovadoras, mejorar mis habilidades en programación aprendiendo lenguajes y buenas prácticas. <br><br> Es por esta razón que me apasiona y entusiasma hacer cursos de desarrollo de software de manera independiente a través de las plataformas digitales de aprendizaje. <br><br> Aprendo rápidamente nuevas tecnologías, cuento con habilidades de comunicación, creatividad, trabajo en equipo y orientación al detalle
+            </p>
+            <img class="about__animation" src="img/picasion.com_f44477dcc91c19ea7514146c0127999d.gif" alt="">
+        </div>
+    </section>
+
+    <section class="skills__container">
+        <h1 class="skills__title">Skills</h1>
+        <div class="skills">
+            <div class="skills__list">
+                <img src="img/skills/html.png" alt="" id="html" class="skills__img">
+                <span>Html5</span>
+            </div>
+            <div class="skills__list">
+                <img src="img/skills/css.png" alt="" class="skills__img">
+                <span>CSS3</span>
+            </div>
+            <div class="skills__list">
+                <img src="img/skills/js.png" alt="" class="skills__img">
+                <span>JavaScript</span>
+            </div>
+            <div class="skills__list">
+                <img src="img/skills/react.png" alt="" class="skills__img">
+                <span>React</span>
+            </div>
+            <div class="skills__list">
+                <img src="img/skills/node.png" alt="" class="skills__img">
+                <span>NodeJs</span>
+            </div>
+            <div class="skills__list">
+                <img src="img/skills/figma.png" alt="" class="skills__img">
+                <span>Figma</span>
+            </div>
+            <div class="skills__list">
+                <img src="img/skills/mysql.png" alt="" class="skills__img">
+                <span>Mysql</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyects__container">
+        <h2 class="proyects__title">Proyects</h2>
+        <div class="proyects">
+            <span>Encriptador de texto</span>
+            <img class="proyects__img"  src="img/proyects/encriptador.PNG" alt="">
+            <a href="https://lizz023.github.io/challenge/">Visualizar proyecto</a>
+        </div>
+    </section>
+    
+    <script src="portafolio.js"></script>
+</body>
+
+</html

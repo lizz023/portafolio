@@ -1,0 +1,51 @@
+.about__me{
+    align-items: center;
+    background: rgba(255, 255, 255, 0.116);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.about__animation{
+    height: 200px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.about__description{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    text-align: justify;
+    
+}
+
+.about__title{
+    text-align: center;
+    margin: 13px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.icon{
+    width: 50px;
+}
+
+@media screen and (min-width:768px) {
+
+    .about__description{
+        flex-wrap: nowrap;
+        gap: 80px;
+        padding: 20px 40px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+}
