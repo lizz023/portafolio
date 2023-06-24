@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/description.css">
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="css/skills.css">
-    <link rel="stylesheet" href="css/proyects.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body class="container">
     <header>
@@ -41,7 +42,7 @@
         </div>
     </section>
 
-    <section class="about__me">
+    <section class="about__me card">
         <h2 class="about__title">About Me</h2>
         <div class="about__description">
             
@@ -52,7 +53,7 @@
         </div>
     </section>
 
-    <section class="skills__container">
+    <section class="skills__container card">
         <h1 class="skills__title">Skills</h1>
         <div class="skills">
             <div class="skills__list">
@@ -86,13 +87,23 @@
         </div>
     </section>
 
-    <section class="proyects__container">
-        <h2 class="proyects__title">Proyects</h2>
-        <div class="proyects">
-            <span>Encriptador de texto</span>
-            <img class="proyects__img"  src="img/proyects/encriptador.PNG" alt="">
-            <a href="https://lizz023.github.io/challenge/">Visualizar proyecto</a>
+    <section class="projects__container">
+        <h2 class="projects__title">Projects</h2>
+        <div class="projects">
+            <div class="projects__card">
+                <span>Encriptador de texto</span>
+                <!-- <iframe src="https://lizz023.github.io/challenge/" frameborder="0"></iframe> -->
+                <img class="projects__img"  src="img/projects/encriptador.PNG" alt="">
+                <a href="https://lizz023.github.io/challenge/">Visualizar proyecto</a>
+            </div>
+            <div class="projects__card">
+                <span>Triquilizz</span>
+                <img class="projects__img" src="img/projects/triquilizz.PNG" alt="">
+                <a href="https://lizz023.github.io/triqui/">Visualizar proyecto</a>
+            </div>
+            
         </div>
+        
     </section>
     
     <script src="portafolio.js"></script>
