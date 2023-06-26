@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/description.css">
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/common.css">
+    
 </head>
 <body class="container">
     <header>
@@ -89,24 +91,57 @@
 
     <section class="projects__container">
         <h2 class="projects__title">Projects</h2>
-        <div class="projects">
-            <div class="projects__card">
-                <span>Encriptador de texto</span>
-                <!-- <iframe src="https://lizz023.github.io/challenge/" frameborder="0"></iframe> -->
-                <img class="projects__img"  src="img/projects/encriptador.PNG" alt="">
-                <a href="https://lizz023.github.io/challenge/">Visualizar proyecto</a>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h2 class="swiper-slide__title">Encriptador texto</h2>
+                <img class="swiper__img" src="img/projects/encriptadorr.PNG" />
+                <a target="_blank" class="swiper-slide__view" href="https://lizz023.github.io/challenge/">Visualizar</a>
+              </div>
+              <div class="swiper-slide">
+                <h2 class="swiper-slide__title">Triquiliz</h2>
+                <img src="img/projects/triqui.PNG"/>
+                <a target="_blank" class="swiper-slide__view" href="">Visualizar</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/projects/6581211.png"/>
+                <a target="_blank" class="swiper-slide__view" href="">Visualizar</a>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/projects/5578691.png"/>
+                <a target="_blank" class="swiper-slide__view" href="">Visualizar</a>
+              </div>
             </div>
-            <div class="projects__card">
-                <span>Triquilizz</span>
-                <img class="projects__img" src="img/projects/triquilizz.PNG" alt="">
-                <a href="https://lizz023.github.io/triqui/">Visualizar proyecto</a>
-            </div>
-            
-        </div>
-        
+              
+            <div class="swiper-pagination"></div>
+        </div>      
     </section>
     
     <script src="portafolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+          },
+          
+           autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+          },
+        });
+      </script>
+    
 </body>
 
 </html
+
