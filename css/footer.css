@@ -1,0 +1,16 @@
+.footer{
+    align-items: center;
+    background-color: #F3F5FC;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .footer{
+
+    }
+}

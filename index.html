@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/footer.css">
     
 </head>
 <body class="container">
     <header>
         <nav class="navbar" id="navbar">
             <ul class="navbar__menu">
-                <li class="navbar__item"><a class="navbar__link activo" href="">About me</a></li>
+                <li class="navbar__item"><a class="navbar__link activo" id="about-me" href="">About me</a></li>
                 <li class="navbar__item"><a class="navbar__link" href="">Skills</a></li>
                 <li class="navbar__item"><a class="navbar__link" href="">Portfolio</a></li>
                 <li class="navbar__item"><a class="navbar__link" href="">Contact</a></li>
@@ -39,12 +40,12 @@
             <img class="description__img--container" src="img/IMG_20230415_132832.jpg" alt="">
         </div>
         <div class="icons">
-            <a href="https://www.linkedin.com/in/elizabeth-restrepo-256541158/" id="linkedin"><img class="icon" src="img/linkedin.png" alt=""></a>
-            <a href="https://github.com/lizz023/challenge" id="github"><img class="icon" src="img/github.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/elizabeth-restrepo-256541158/" id="linkedin" target="_blank"><img class="icon" src="img/linkedin.png" alt=""></a>
+            <a href="https://github.com/lizz023" id="github" target="_blank"><img class="icon" src="img/github.png" alt=""></a>
         </div>
     </section>
 
-    <section class="about__me card">
+    <section class="about__me card" id="about-me">
         <h2 class="about__title">About Me</h2>
         <div class="about__description">
             
@@ -116,7 +117,7 @@
             <div class="swiper-pagination"></div>
         </div>      
     </section>
-    
+
     <script src="portafolio.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    
@@ -142,6 +143,12 @@
       </script>
     
 </body>
+
+<footer>
+    <div class="footer">
+        <p>© Copyright Elizabeth Restrepo - 2023</p>
+    </div>
+</footer>
 
 </html
 
