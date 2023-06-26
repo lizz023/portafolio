@@ -10,7 +10,7 @@
     justify-content: center
 }
 
-.description__img{
+.description__img--container{
     align-items: center;
     border-radius: 50%;
     display: flex;
