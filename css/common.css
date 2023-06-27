@@ -13,7 +13,6 @@
 .swiper-slide {  
   background-position: center;
   background-size: cover;
-  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent, #0006);
   width: 350px;
   height: 228px;
   text-align: center;
@@ -23,16 +22,16 @@
   width: 100%;
 }
 
-/* .swiper-slide__title{
-  text-align: center;
-} */
+.swiper-slide__title{
+  font-style: italic;
+}
 
 .swiper-slide__view{
   position: absolute;
   width: 100%; 
   transition: 0.3s; 
   height: 100%; 
-  top: 0; 
+  top: 28px; 
   display: flex; 
   align-items: center; 
   justify-content: center;
